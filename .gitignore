@@ -1,0 +1,44 @@
+# === Terraform ===
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# === Variáveis e arquivos sensíveis ===
+*.tfvars
+*.env
+.env/
+
+# === Logs e arquivos temporários ===
+*.log
+*.tmp
+*.bak
+*.swp
+
+# === Visual Studio Code ===
+.vscode/
+
+# === Databricks Notebooks (local dev) ===
+*.dbc
+.ipynb_checkpoints/
+
+# === PowerShell Outputs ===
+*.ps1~
+
+# === Python Aux Scripts ===
+__pycache__/
+*.py[cod]
+*.pyo
+
+# === SO específicos ===
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# === IDEs ===
+.idea/
+*.iml
+
+# === Arquivos de chave e segurança ===
+*.pem
+*.key
